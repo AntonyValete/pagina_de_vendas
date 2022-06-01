@@ -1,17 +1,32 @@
-.container {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top {
+    background-color: rgb(178, 182, 184);
+    height: 15vh;
     display: flex;
-    flex-wrap: row;
-    justify-content: center;
-    gap: 700px;
+    align-items: center;
+
+}
+
+.headerClass {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 13%;
+    padding-right: 13%;
+    display: flex;
+}
+
+.logo {
+    height: 84.09%;
 }
 
 #logo {
     height: 100%;
     width: 100%;
 }
-
-.logo {
-    width: 100px;
-}
-
-
